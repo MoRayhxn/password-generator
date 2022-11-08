@@ -14,10 +14,11 @@ passwordLength = random.randint(0, 20)
 ### Generate password
 newPassword = []
 for x in range(passwordLength):
-    ### add (append) a ramdp, cjaracter to password
+    ### add (append) a ramdp, character to password
     newPassword.append(random.choice(characters))
 
-### Join everyhing back into a string
+### Join everything back into a string
+### str command converts values to strings so they can be combined
 finalPassword = ''.join(map(str, newPassword))
 
 ### Display new password
