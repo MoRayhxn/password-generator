@@ -14,7 +14,7 @@ passwordLength = random.randint(0, 20)
 ### Generate password
 newPassword = []
 for x in range(passwordLength):
-    ### add (append) a ramdp, character to password
+    ### add (append) a random, character to password
     newPassword.append(random.choice(characters))
 
 ### Join everything back into a string
